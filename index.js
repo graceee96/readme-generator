@@ -7,6 +7,16 @@ const inquirer = require('inquirer');
 const questions = [
     {
         type: 'input',
+        message: 'What is your email?',
+        name: 'email'
+    },
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
+    },
+    {
+        type: 'input',
         message: 'What is the name of your project?',
         name: 'project',
     },
