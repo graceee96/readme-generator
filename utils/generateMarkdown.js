@@ -221,6 +221,15 @@ function renderLicenseSection(license) {
   }
 }
 
+//adds license section in Table of Contents in README
+function addLicensetoTOC(license) {
+  if (license === 'NO LICENSE') {
+    return '';
+  } else {
+    return '[License](#license)'
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.project}
@@ -232,10 +241,15 @@ ${data.description}
 
 ## Table of Contents
 [Installation](#installation)
+
 [Usage](#usage)
-// [License](#license)
+
+${addLicensetoTOC(data.license)}
+
 [How to Contribute](#how-to-contribute)
+
 [Tests](#tests)
+
 [Questions](#questions)
 
 ## Installation
