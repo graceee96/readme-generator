@@ -2,9 +2,19 @@
 
 ## Description
 
+
 ## Installation
 
 ## Usage
+
+### Demonstration Video
+<video src="assets/videos/demonstration-video.mov" controls="controls">
+</video>
+
+### Screenshot of README created from the video
+![README created from the video](./assets/images/screenshot-of-sample.png)
+
+Click [here](GENERATED-README-sample.md) to see the document.
 
 ## Credits
 
