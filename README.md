@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This application produces README documents for applications based on user inputs to prompts. 
+This application produces README documents for applications based on user inputs to prompts. It is a much quicker and easier process, so developers can devote more time to working on the project.
 
 ## Installation
 1. Download the repository by running ```git clone <SSH key>``` in the command line interface.
@@ -12,7 +12,7 @@ This application produces README documents for applications based on user inputs
 ## Usage
 After installing, run ```node index.js``` in the command line interface. Then, answer the prompts. When all the prompts are answered, a new README will be generated with the name ```GENERATED-README.md```.
 
-> Note: This README generator does not automatically guarantee a high-quality README. Make sure you still read through the file and make edits when necessary!
+> Note: This README generator does not completely guarantee a high-quality README. Make sure you still read through the file and make edits when necessary!
 
 ### Demonstration Video
 <video src="assets/videos/demonstration-video.mov" controls="controls">
