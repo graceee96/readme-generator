@@ -15,91 +15,91 @@ function renderLicenseBadge(license) {
       return '![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)';
       break;
     case 'BSD 2-Clause License':
-      return 'https://opensource.org/licenses/BSD-2-Clause';
+      return '![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)';
       break;
     case 'CC0':
-      return 'http://creativecommons.org/publicdomain/zero/1.0/';
+      return '![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)';
       break;
     case 'Attribution 4.0 International':
-      return 'https://creativecommons.org/licenses/by/4.0/';
+      return '![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)';
       break;
     case 'Attribution-ShareAlike 4.0 International':
-      return 'https://creativecommons.org/licenses/by-sa/4.0/'
+      return '![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)'
       break;
     case 'Attribution-NonCommercial 4.0 International':
-      return 'https://creativecommons.org/licenses/by-nc/4.0/';
+      return '![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)';
       break;
     case 'Attribution-NoDerivates 4.0 International':
-      return 'https://creativecommons.org/licenses/by-nd/4.0/';
+      return '![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)';
       break;
     case 'Attribution-NonCommmercial-ShareAlike 4.0 International':
-      return 'https://creativecommons.org/licenses/by-nc-sa/4.0/';
+      return '![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)';
       break;
     case 'Attribution-NonCommercial-NoDerivatives 4.0 International':
-      return 'https://creativecommons.org/licenses/by-nc-nd/4.0/';
+      return '![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)';
       break;
     case 'Eclipse Public License 1.0':
-      return 'https://opensource.org/licenses/EPL-1.0';
+      return '![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)';
       break;
     case 'GNU GPL v3':
-      return 'https://www.gnu.org/licenses/gpl-3.0';
+      return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
       break;
     case 'GNU GPL v2':
-      return 'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html';
+      return '![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)';
       break;
     case 'GNU AGPL v3':
-      return 'https://www.gnu.org/licenses/agpl-3.0';
+      return '![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)';
       break;
     case 'GNU LGPL v3':
-      return 'https://www.gnu.org/licenses/lgpl-3.0';
+      return '![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)';
       break;
     case 'GNU FDL v1.3':
-      return 'https://www.gnu.org/licenses/fdl-1.3';
+      return '![License: FDL 1.3](https://img.shields.io/badge/License-FDL_v1.3-blue.svg)';
       break;
     case 'The Hippocratic License 2.1':
-      return 'https://firstdonoharm.dev';
+      return '![License: Hippocratic 2.1](https://img.shields.io/badge/License-Hippocratic_2.1-lightgrey.svg)';
       break;
     case 'The Hippocratic License 3.0':
-      return 'https://firstdonoharm.dev';
+      return '![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)';
       break;
     case 'IBM Public License Version 1.0':
-      return 'https://opensource.org/licenses/IPL-1.0';
+      return '![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)';
       break;
     case 'ISC License (ISC)':
-      return 'https://opensource.org/licenses/ISC';
+      return '![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)';
       break;
     case 'The MIT License':
-      return 'https://opensource.org/licenses/MIT';
+      return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
       break;
     case 'Mozilla Public License 2.0':
-      return 'https://opensource.org/licenses/MPL-2.0';
+      return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
       break;
     case 'Attribution License (BY)':
-      return 'https://opendatacommons.org/licenses/by/';
+      return '![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)';
       break;
     case 'Open Database License (ODbL)':
-      return 'https://opendatacommons.org/licenses/odbl/';
+      return '![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)';
       break;
     case 'Public Domain Dedication and License (PDDL)':
-      return 'https://opendatacommons.org/licenses/pddl/';
+      return '![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)';
       break;
     case 'The Perl License':
-      return 'https://opensource.org/licenses/Artistic-2.0';
+      return '![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)';
       break;
     case 'The Artistic License 2.0':
-      return 'https://opensource.org/licenses/Artistic-2.0';
+      return '![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)';
       break;
     case 'SIL Open Font License 1.1':
-      return 'https://opensource.org/licenses/OFL-1.1';
+      return '![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)';
       break;
     case 'The Unlicense':
-      return 'http://unlicense.org/';
+      return '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)';
       break;
     case 'The Do What the Fuck You Want to Public License':
-      return 'http://www.wtfpl.net/about/';
+      return '![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)';
       break;
     case 'The zlib/libpng License':
-      return 'https://opensource.org/licenses/Zlib';
+      return '![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)';
       break;
   }
 }
@@ -217,7 +217,7 @@ function renderLicenseSection(license) {
     return '';
   } else {
     return `## License
-    This project is licensed under [${license}](${renderLicenseLink(license)}).`
+  This project is licensed under [${license}](${renderLicenseLink(license)}).`
   }
 }
 
