@@ -15,12 +15,12 @@ After installing, run ```node index.js``` in the command line interface. Then, a
 > Note: This README generator does not completely guarantee a high-quality README. Make sure you still read through the file and make edits when necessary!
 
 ### Link to video walkthrough
-
+https://drive.google.com/file/d/1vlR52B0xTNpFICiA0p19flgHEqs9wQJq/view?usp=share_link
 
 ### Screenshot of sample README generated in video walkthrough
-![README created from the video]()
+![README created from the video](./assets/images/generatedreadme-screenshot.png)
 
-Click [here]() to see the document.
+Click [here](./GENERATED-README.md) to see the document.
 
 ## Credits
 
